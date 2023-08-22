@@ -1,0 +1,16 @@
+div.imagec2{
+    width: 90%;
+    height: 280px;
+    margin: 0px auto;
+}
+div.imagec2 div{
+    display: inline-block;
+    width: 50%;
+    margin-right: -4px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+div.imagec2 div img{
+    width: 100%;
+    border-radius: 10px;
+}

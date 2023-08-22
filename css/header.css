@@ -1,0 +1,627 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+@font-face {
+  font-family: yekan;
+  src: url(../font/fa/IRANYekanWeb.eot);
+  src: url(../font/fa/IRANYekanWeb.ttf);
+  src: url(../font/fa/IRANYekanWeb.woff);
+  src: url(../font/fa/IRANYekanWeb.woff2);
+}
+@font-face {
+  font-family: yekanbold;
+  src: url(../font/fa/IRANYekanWeb-Bold.eot);
+  src: url(../font/fa/IRANYekanWeb-Bold.ttf);
+  src: url(../font/fa/IRANYekanWeb-Bold.woff);
+  src: url(../font/fa/IRANYekanWeb-Bold.woff2);
+}
+header {
+  width: 100%;
+  height: 170px;
+  box-shadow: 0 1px 2px #ababab;
+  position: sticky;
+  top: 0px;
+  z-index: 50000;
+  background-color: #ffffff;
+}
+div.headertop {
+  width: 100%;
+  height: 60px;
+}
+div.headertop img {
+  width: inherit;
+  height: inherit;
+  object-fit: cover;
+}
+div.headerbottom {
+  width: inherit;
+  height: 110px;
+}
+div.headerbottom div.topbottom {
+  width: inherit;
+  height: 70px;
+}
+div.headerbottom div.topbottom div.logoheader {
+  width: 12%;
+  display: inline-block;
+  height: inherit;
+  vertical-align: top;
+  padding-top: 20px;
+  box-sizing: border-box;
+  padding-right: 20px;
+}
+div.headerbottom div.topbottom div.serchheader {
+  width: 70%;
+  height: inherit;
+  display: inline-block;
+  margin-right: -4px;
+  vertical-align: top;
+  padding-top: 10px;
+  box-sizing: border-box;
+}
+div.serchheader form {
+  position: relative;
+}
+div.serchheader input[type="search"] {
+  width: 600px;
+  margin-top: 5px;
+  height: 45px;
+  border-radius: 10px;
+  background-color: #f1f2f4;
+  outline: unset;
+  border: unset;
+}
+div.serchheader label {
+  position: absolute;
+  top: 15px;
+  right: 18px;
+}
+div.serchheader label svg {
+  width: 20px;
+  height: 20px;
+  fill: silver;
+}
+div.serchheader input::placeholder {
+  box-sizing: border-box;
+  padding-right: 60px;
+  font-family: yekan;
+  font-size: 12px;
+}
+div.headerbottom div.topbottom div.loginheader {
+  width: 18%;
+  height: inherit;
+  display: inline-block;
+  margin-right: -4px;
+  vertical-align: top;
+  font-family: yekan;
+  padding-top: 10px;
+  box-sizing: border-box;
+}
+div.loginheader svg {
+  width: 25px;
+  height: 25px;
+  vertical-align: middle;
+  margin-right: 5px;
+  fill: rgb(77, 76, 76);
+}
+div.loginheader a {
+  text-decoration: none;
+  border: 1px solid silver;
+  padding: 10px;
+  box-sizing: border-box;
+  border-radius: 10px;
+  font-family: yekan;
+  font-size: 12px;
+  color: black;
+}
+div.loginheader a.span4 {
+  border: unset;
+  font-size: 20px;
+  width: 2px;
+  height: 2px;
+  display: inline-block;
+}
+div.loginheader span.khat {
+  display: inline-block;
+  width: 2px;
+  height: 12px;
+  background-color: black;
+  vertical-align: middle;
+}
+div.loginheader span {
+  margin: 1px;
+  font-family: yekan;
+  font-weight: 600;
+}
+div.loginheader span.khatt {
+  display: inline-block;
+  margin-right: 15px;
+  width: 1px;
+  height: 25px;
+  background-color: #ababab;
+  vertical-align: middle;
+}
+div.headerbottom div.bottombottom {
+  width: 100%;
+  height: 40px;
+}
+div.bottombottom nav {
+  width: 80%;
+  height: inherit;
+  display: inline-block;
+  vertical-align: top;
+  position: relative;
+}
+div.bottombottom div.location {
+  width: 20%;
+  height: inherit;
+  display: inline-block;
+  margin-right: -4px;
+  vertical-align: top;
+}
+div.bottombottom nav div.menu {
+  display: inline-block;
+  width: 14%;
+  height: inherit;
+  padding-top: 10px;
+  box-sizing: border-box;
+  position: relative;
+}
+div.bottombottom nav div.menu a {
+  text-decoration: none;
+  padding-right: 20px;
+  box-sizing: border-box;
+  color: #000000a4;
+  font-size: 14px;
+  font-family: yekanbold;
+  font-weight: bold;
+  margin-top: 10px;
+  line-height: 25px;
+  width: 50%;
+}
+div.bottombottom nav div.menu a svg {
+  width: 17px;
+  display: inline-block;
+  height: 20px;
+  vertical-align: top;
+  margin-left: 5px;
+  fill: rgb(71, 71, 71);
+}
+div.bottombottom nav div.menu div.zirmenu {
+  width: 200vh;
+  height: 70vh;
+  right: 20px;
+  border-radius: 10px;
+  background-color: white;
+  position: absolute;
+  display: none;
+}
+div.bottombottom nav div.menu:hover div.zirmenu {
+  display: block;
+}
+div.bottombottom nav div.menu div.zirmenu div.zirmenurast {
+  width: 15%;
+  height: inherit;
+  overflow: auto;
+  direction: ltr;
+}
+div.bottombottom nav div.menu div.zirmenu div.zirmenurast div {
+  width: 100%;
+  height: 10%;
+  background-color: white;
+  text-align: right;
+  margin-bottom: -10px;
+}
+div.bottombottom nav div.menu div.zirmenu div.zirmenurast div a {
+  display: block;
+  width: inherit;
+  height: 100%;
+  text-decoration: none;
+  font-family: yekan;
+  font-size: 12px;
+  line-height: 40px;
+}
+div.bottombottom nav div.menu div.zirmenu div.zirmenurast div a:hover {
+  background-color: silver;
+}
+div.bottombottom nav div.menu div.zirmenu div.zirmenurast div div.mobailmenu {
+  position: absolute;
+  width: 85%;
+  height: 70vh;
+  left: 0;
+  top: 0;
+  border-radius: 10px;
+  overflow: auto;
+}
+div.bottombottom
+  nav
+  div.menu
+  div.zirmenu
+  div.zirmenurast
+  div
+  div.mobailmenu
+  div.one {
+  width: 100%;
+  height: 15%;
+}
+div.bottombottom
+  nav
+  div.menu
+  div.zirmenu
+  div.zirmenurast
+  div
+  div.mobailmenu
+  div.one
+  a {
+  display: inline-block;
+  width: inherit;
+  height: inherit;
+  text-decoration: none;
+  font-family: yekan;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 60px;
+}
+div.bottombottom
+  nav
+  div.menu
+  div.zirmenu
+  div.zirmenurast
+  div
+  div.mobailmenu
+  div.two {
+  width: auto;
+  height: 85%;
+  display: inline-block;
+  vertical-align: top;
+  direction: rtl;
+}
+div.bottombottom
+  nav
+  div.menu
+  div.zirmenu
+  div.zirmenurast
+  div
+  div.mobailmenu
+  div.two
+  div {
+  width: inherit;
+  display: flex;
+  flex-direction: row;
+  height: 30px;
+  margin-bottom: 10px;
+}
+div.bottombottom
+  nav
+  div.menu
+  div.zirmenu
+  div.zirmenurast
+  div
+  div.mobailmenu
+  div.two
+  div
+  h4 {
+  width: inherit;
+  height: 30px;
+  padding-right: 5px;
+  line-height: 30px;
+  box-sizing: border-box;
+  vertical-align: top;
+  cursor: pointer;
+  font-size: 15px;
+  font-family: yekan;
+  border-right: 2px solid crimson;
+}
+div.bottombottom
+  nav
+  div.menu
+  div.zirmenu
+  div.zirmenurast
+  div
+  div.mobailmenu
+  div.two
+  div
+  p {
+  width: inherit;
+  height: 10px;
+  box-sizing: border-box;
+  cursor: pointer;
+  font-family: yekan;
+  color: silver;
+  font-size: 12px;
+}
+div.bottombottom
+  nav
+  div.menu
+  div.zirmenu
+  div.zirmenurast
+  div
+  div.mobailmenu
+  div.two
+  div:hover
+  h4,
+div.bottombottom
+  nav
+  div.menu
+  div.zirmenu
+  div.zirmenurast
+  div
+  div.mobailmenu
+  div.two
+  div:hover
+  p {
+  color: crimson;
+}
+div.bottombottom nav div.menu div.zirmenu div.zirmenurast div div.zir {
+  position: absolute;
+  width: 85%;
+  height: 70vh;
+  left: 0;
+  top: 0;
+  border-radius: 10px;
+  display: none;
+  overflow: auto;
+}
+div.bottombottom nav div.menu div.zirmenu div.zirmenurast div:hover div.zir {
+  display: block;
+}
+div.bottombottom nav div.menu div.zirmenu div.zirmenurast div div.zir div.two {
+  width: auto;
+  height: 85%;
+  display: inline-block;
+  vertical-align: top;
+  direction: rtl;
+}
+div.bottombottom
+  nav
+  div.menu
+  div.zirmenu
+  div.zirmenurast
+  div
+  div.zir
+  div.two
+  div {
+  width: inherit;
+  display: flex;
+  flex-direction: row;
+  height: 30px;
+  margin-bottom: 10px;
+}
+div.bottombottom
+  nav
+  div.menu
+  div.zirmenu
+  div.zirmenurast
+  div
+  div.zir
+  div.two
+  div
+  h4 {
+  width: inherit;
+  height: 30px;
+  padding-right: 5px;
+  line-height: 30px;
+  box-sizing: border-box;
+  vertical-align: top;
+  cursor: pointer;
+  font-size: 15px;
+  font-family: yekan;
+  border-right: 2px solid crimson;
+}
+div.bottombottom
+  nav
+  div.menu
+  div.zirmenu
+  div.zirmenurast
+  div
+  div.zir
+  div.two
+  div
+  p {
+  width: inherit;
+  height: 10px;
+  box-sizing: border-box;
+  cursor: pointer;
+  font-family: yekan;
+  color: silver;
+  font-size: 12px;
+}
+div.bottombottom
+  nav
+  div.menu
+  div.zirmenu
+  div.zirmenurast
+  div
+  div.zir
+  div.two
+  div:hover
+  h4,
+div.bottombottom
+  nav
+  div.menu
+  div.zirmenu
+  div.zirmenurast
+  div
+  div.zir
+  div.two
+  div:hover
+  p {
+  color: crimson;
+}
+div.bottombottom nav div.menu div.zirmenu div.zirmenurast div div.zir div.one {
+  width: 100%;
+  height: 15%;
+}
+div.bottombottom
+  nav
+  div.menu
+  div.zirmenu
+  div.zirmenurast
+  div
+  div.zir
+  div.one
+  a {
+  display: inline-block;
+  width: inherit;
+  height: inherit;
+  text-decoration: none;
+  font-family: yekan;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 60px;
+}
+div.bottombottom nav div.menu div.makemenu {
+  width: 95vw;
+  height: 100px;
+  background-color: #f1f2f4;
+  right: 15px;
+}
+div.bottombottom nav div.menu div.makemenu div {
+  background-color: black;
+  width: 9%;
+  height: 40px;
+}
+div.bottombottom nav div.menu div.makemenu div a {
+  color: whitesmoke;
+  display: block;
+  text-decoration: none;
+  font-size: 12px;
+  font-family: yekan;
+  line-height: 40px;
+}
+
+div.bottombottom nav div.menu2 {
+  display: inline-block;
+  margin-right: -4px;
+  border-color: #ababab;
+  vertical-align: top;
+  padding-top: 10px;
+  box-sizing: border-box;
+  position: relative;
+}
+div.bottombottom nav div.menu2 a {
+  text-decoration: none;
+  padding-left: 10px;
+  box-sizing: border-box;
+  color: #000000a4;
+  font-size: 12px;
+  font-family: yekan;
+  vertical-align: top;
+  display: inline-block;
+  margin-top: 3px;
+}
+div.bottombottom nav div.menu2 span {
+  display: inline-block;
+  width: 1px;
+  height: 15px;
+  background-color: #ababab;
+  vertical-align: middle;
+}
+div.bottombottom nav div.menu2 a svg {
+  width: 22px;
+  height: 22px;
+  vertical-align: middle;
+  fill: #abab;
+}
+div.bottombottom nav a {
+  text-decoration: none;
+  padding-right: 10px;
+  box-sizing: border-box;
+  color: #000000a4;
+  font-size: 12px;
+  font-family: yekan;
+  vertical-align: middle;
+}
+#open,
+#close {
+  display: none;
+}
+div.location label[for="open"] {
+  display: inline-block;
+  width: 80%;
+  font-family: yekan;
+  height: inherit;
+  font-size: 14px;
+  text-align: left;
+  padding-top: 10px;
+  left: 0;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+div.location div.open {
+  width: 450px;
+  position: absolute;
+  height: 520px;
+  background-color: white;
+  right: -800px;
+  border-radius: 10px;
+  transition: 500ms;
+  overflow: auto;
+}
+div.location div.open div.opentop {
+  width: 100%;
+  height: 60px;
+  box-shadow: 0px 2px 2px silver;
+  position: sticky;
+  top: 0;
+  background-color: white;
+  cursor: pointer;
+}
+div.location div.open div.opentop h2 {
+  position: absolute;
+  right: 35px;
+  top: 20px;
+  font-size: 17px;
+  font-family: yekan;
+}
+div.location div.open div.opentop label[for="close"] {
+  display: inline-block;
+  position: absolute;
+  left: 0;
+  top: 10px;
+  width: 10%;
+  height: 20px;
+  text-align: center;
+  font-size: 30px;
+  line-height: 40px;
+  font-weight: bold;
+  cursor: pointer;
+}
+#open:checked ~ div.open {
+  right: calc(50% - 450px / 2);
+  top: 65px;
+  z-index: 100;
+}
+#close:checked ~ div.open {
+  right: -800px;
+}
+div.location div.open div.openbottom {
+  width: 100%;
+  height: 80px;
+  cursor: pointer;
+}
+div.location div.open div.openbottom h4 {
+  width: inherit;
+  height: inherit;
+  line-height: 80px;
+  font-family: yekan;
+  font-size: 19px;
+  color: blue;
+  box-sizing: border-box;
+  padding-right: 30px;
+  box-sizing: border-box;
+}
+div.location div.open div.openseri {
+  width: 100%;
+  height: 60px;
+  box-shadow: 0px 2px 2px rgb(221, 221, 221);
+  padding-right: 30px;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+div.location div.open div.openseri h4 {
+  font-size: 16px;
+  font-family: yekan;
+  line-height: 60px;
+}

@@ -1,0 +1,90 @@
+div.digiplus{
+    width: 90%;
+    height: 390px;
+    background-color: #941B80;
+    margin: 10px auto;
+    border-radius: 20px;
+}
+div.digiplus div.digirast{
+    width: 35%;
+    height: inherit;
+    display: inline-block;
+    background-image: url(../images/digiplus/plus-widget.png);
+    vertical-align: top;
+    background-size: cover;
+}
+div.digiplus div.digichap{
+    width: 65%;
+    height: inherit;
+    margin-right: -4px;
+    display: inline-block;
+    vertical-align: top;
+}
+div.digiplus div.digirast div:nth-of-type(1){
+    width: 100%;
+    margin-top: 40px;
+    margin-right: 40px;
+    margin-bottom: 10px;
+}
+div.digiplus div.digirast div:nth-of-type(2){
+    all: unset;
+    margin-right: 40px;
+    font-family: yekan;
+    color: whitesmoke;
+}
+div.digiplus div.digirast a{
+    display: block;
+    width: 99px;
+    height: 40px;
+    outline: 1px solid whitesmoke;
+    line-height: 40px;
+    text-align: center;
+    text-decoration: none;
+    color: whitesmoke;
+    margin-right: 40px;
+    font-family: yekan;
+    margin-top: 15px;
+    border-radius: 10px;
+}
+div.digiplus div.digichap div.digichapsefid{
+    width: 98%;
+    background-color: #FFFFFF;
+    height: 95%;
+    margin-top: 12px;
+    border-radius: 10px;
+    vertical-align: top;
+}
+div.digiplus div.digichap div.digichapsefid div.sefidtop{
+    width: 100%;
+    height: 10%;
+    padding: 10px 20px;
+    box-sizing: border-box;
+}
+div.digiplus div.digichap div.digichapsefid div.sefidtop p{
+    display: inline-block;
+    width: 80%;
+    font-family: yekan;
+}
+div.digiplus div.digichap div.digichapsefid div.sefidtop a{
+    display: inline-block;
+    width: 20%;
+    margin-right: -4px;
+    font-family: yekan;
+    text-decoration: none;
+    text-align: left;
+    color: #941B80;
+}
+div.digiplus div.digichap div.digichapsefid div.sefidbottom{
+    width: 100%;
+    height: 90%;
+    margin-top: 20px;
+    text-align: center;
+    line-height: 80px;
+}
+div.digiplus div.digichap div.digichapsefid div.sefidbottom div{
+    display: inline-block;
+    width: 100%;
+}
+div.digiplus div.digichap div.digichapsefid div.sefidbottom div img{
+    width: 15%;
+}

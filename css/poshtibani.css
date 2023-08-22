@@ -1,0 +1,124 @@
+div.poshtibanilogo{
+    width: 4%;
+    height: 8%;
+    position: fixed;
+    border-radius: 50%;
+    background-color: crimson;
+    bottom: 20px;
+    left: 20px;
+    z-index: 500;
+}
+div.poshtibanilogo svg{
+    width: 70%;
+    height: 90%;
+    padding-top: 13px;
+    box-sizing: border-box;
+    fill: whitesmoke;
+    cursor: pointer;
+}
+#back,#poshtibani{
+    display: none;
+}
+div.poshtibani{
+    width: 60vh;
+    position: fixed;
+    height: 60vh;
+    background-color: white;
+    right: -500px;
+    z-index: 600;
+    border-radius: 50px;
+    transition: 300ms;
+    overflow: hidden;
+    border: 1px solid crimson;
+}
+#poshtibani:checked ~ div.poshtibani{
+    left: 40px;
+    top: 180px;
+    bottom: 40px;
+    right: 950px;
+}
+#back:checked ~ div.poshtibani{
+    right: -500px;
+}
+div.poshtibani label{
+    position: absolute;
+    width: 100%;    
+    height: 15%;
+    background-color: crimson;
+}
+div.poshtibani label span{
+    position: absolute;
+    left: 20px;
+    font-size: 40px;
+    color: white;
+    cursor: pointer;
+}
+div.poshtibani label p{
+    position: absolute;
+    right: 0;
+    display: inline-block;
+    font-family: yekan;
+    font-size: 20px;
+    color: white;
+    line-height: 50px;
+}
+div.poshtibani div.poshtibani2{
+    position: absolute;
+    width: 100%;
+    height: 85%;
+    left: 0;
+    bottom: 0;
+    overflow: auto;
+}
+div.poshtibani div.poshtibani2 p{
+    all: unset;
+    font-family: yekan;
+    display: block;
+    margin-bottom: 20px;
+    font-size: 15px;
+    padding-right: 10px;
+    box-sizing: border-box;
+    font-weight: bold;
+    line-height: 30px;
+}
+div.poshtibani div.poshtibani2 p:nth-of-type(1){
+    all: unset;
+    font-size: 20px;
+    line-height: 40px;
+    font-family: yekan;
+    padding-right: 15px;
+    box-sizing: border-box;
+}
+div.poshtibani div.poshtibani2 div{
+    width: 90%;
+    margin: 10px auto;
+    border: 1px solid silver;
+    line-height: 50px;
+    padding-right: 5px;
+    box-sizing: border-box;
+    font-family: yekan;
+    font-weight: bold;
+    font-size: 14px;
+}
+div.poshtibani div.poshtibani2 h4{
+    font-family: yekan;
+    margin-bottom: 20px;
+    font-size: 13px;
+    padding-right: 90px;
+    padding-top: 20px;
+    box-sizing: border-box;
+    font-weight: bold;
+    line-height: 30px;
+}
+div.poshtibani div.poshtibani2 h3{
+    font-family: yekan;
+    width: 65%;
+    border-radius: 20px;
+    font-size: 14px;
+    height: 15%;
+    margin: 5px auto;
+    text-align: center;
+    line-height: 50px;
+    background-color: blue;
+    color: white;
+}

@@ -1,0 +1,91 @@
+div.s{
+    width: 90%;
+    height: 110px;
+    background-color: silver;
+    margin: 20px auto;
+    border-radius: 10px;
+}
+div.ss{
+    width: 100%;
+    height: inherit;
+    background-image: url(../images/s/freshPattern.svg);
+}
+div.ss div.ss1{
+    width: 50%;
+    height: inherit;
+    display: inline-block;
+    margin-right: -4px;
+    vertical-align: top;
+}
+div.ss1 div{
+    display: inline-block;
+    vertical-align: middle;
+    padding: 30px 15px;
+    box-sizing: border-box;
+}
+div.ss1 div img{
+    box-sizing: border-box;
+}
+div.ss1 div:nth-of-type(3){
+    all: unset;
+    display: inline-block;
+    margin-right: -4px;
+    width: 25%;
+}
+div.ss1 div p{
+    background-color: #39AE00;
+    font-family: yekanbold;
+    color: whitesmoke;
+    border-radius: 10px;
+    width: 80%;
+    height: 30px;
+    line-height: 30px;
+    padding-right: 10px;
+    box-sizing: border-box;
+}
+div.ss div.ss2{
+    width: 39%;
+    display: inline-block;
+    vertical-align: top;
+}
+div.ss2 div{
+    display: inline-block;
+    position: relative;
+    margin-right: 20px;
+}
+div.ss2 div img{
+    width: 18%;
+    padding: 5px;
+    box-sizing: border-box;
+    border-radius: 50%;
+    margin-top: 15px;
+}
+div.ss2 div span{
+    position: absolute;
+    top: 80px;
+    background-color: crimson;
+    border-radius: 30px;
+    color: whitesmoke;
+    font-family: yekanbold;
+    padding-inline-start: 5px;
+    box-sizing: border-box;
+}
+div.ss3{
+    display: inline-block;
+    margin-right: -4px;
+    vertical-align: TOP;
+    margin-top: 40px;
+    width: 11%;
+    padding-left: 5px;
+    box-sizing: border-box;
+}
+div.ss3 p{
+    font-family: yekanbold;
+    background-color: whitesmoke;
+    border-radius: 20px;
+    padding: 10px;
+    box-sizing: border-box;
+    color: #39AE00;
+    width: 100%;
+    display: inline-block;
+}

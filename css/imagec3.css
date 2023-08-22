@@ -1,0 +1,12 @@
+div.imagec3{
+    width: 90%;
+    height: 165px;
+    margin: 20px auto;
+    border-radius: 10px;
+    overflow: hidden;
+}
+div.imagec3 img{
+    width: 100%;
+    height: inherit;
+    object-fit: cover;
+}

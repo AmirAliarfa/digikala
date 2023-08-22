@@ -1,0 +1,12 @@
+div.imagec{
+    width: 90%;
+    height: 235px;
+    margin: 10px auto;
+}
+div.imagec img{
+    width: 25%;
+    margin-right: -4px;
+    padding: 10px 5px;
+    box-sizing: border-box;
+    border-radius: 20px;
+}

@@ -1,0 +1,88 @@
+div.slider2{
+    width: 100%;
+    height: 300px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+div.slider2 div.karoselswiper{
+    width: 90%;
+    height: inherit;
+    margin: 0 auto;
+    background-color: crimson;
+    padding: 20px;
+    box-sizing: border-box;
+    border-left: 1px solid crimson;
+    border-radius: 20px;
+}
+div.slider2 div.karoselswiper div.swiper-slide:nth-of-type(2){
+    border-radius: 0px 20px 20px 0px;
+}
+div.slider2 .karoselswiper .swiper-slide:nth-of-type(1){
+    background-color: crimson;
+}
+div.slider2 div.swiper div.swiper-wrapper div.swiper-slide{
+    display: flex;
+    flex-flow: column wrap;
+    position: relative;
+    vertical-align: top;
+}
+div.slider2 div.swiper div.swiper-wrapper div.swiper-slide div.svgamazin{
+    width: 40%;
+    position: absolute;
+    top: 0;
+    right: 20;
+}
+div.slider2 div.swiper div.swiper-wrapper div.swiper-slide div.svgamazin svg{
+    width: 100%;
+}
+div.boxamzing{
+    width: 100px;
+    height: 100px;
+    display: block;
+    margin: 20px 30px;
+
+}
+div.aamazing{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 40px;
+}
+div.aamazing a{
+    font-family: yeka;
+    color: whitesmoke;
+    text-decoration: none;
+    display: block;    
+    vertical-align: top;
+}
+div.aamazing a svg{
+    width: 80%;
+    vertical-align: top;
+    fill: whitesmoke;
+}
+.swiper-slide{
+    display: flex;
+    flex-flow: column wrap;
+}
+div.slider2 div.swiper-slide div img{
+    width: 90%;
+    height: 100%;
+}
+div.slider2 div.swiper-slide span{
+    font-family: yekan;
+    padding: 3px;
+    box-sizing: border-box;
+}
+div.slider2 div.swiper-slide span:nth-of-type(2){
+    background-color: crimson;
+    border-radius: 50%;
+}
+div.slider2 div.swiper-slide p{
+    font-family: yekan;
+    color: silver;
+    padding-top: 10px;
+    box-sizing: border-box;
+}
+
+

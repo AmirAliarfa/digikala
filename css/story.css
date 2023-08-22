@@ -1,0 +1,26 @@
+div.story{
+    width: 100%;
+    height: 150px;
+    box-sizing: border-box;
+    padding-top: 20px;
+    text-align: center;
+}
+div.storyy{
+    display: inline-block;
+    text-align: center;
+    width: 11%;
+    padding: 5px 5px;
+    box-sizing: border-box;
+}
+div.storyy img{
+    width: 50%;
+    border-radius: 50%;
+    object-fit: cover;
+    outline: 2px solid crimson;
+    outline-offset: 3px;
+}
+div.storyy p{
+    font-family: yekan;
+    font-size: 12px;
+    padding-top: 10px;
+}

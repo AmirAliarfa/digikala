@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+div.login{
+    margin: 6% auto;
+    width: 400px;
+    height: 440px;
+    border: 1px solid rgb(228, 228, 228);
+    border-radius: 10px;
+}
+div.login div.logologin{
+    width: inherit;
+    height: 95px;
+    text-align: center;
+    line-height: 153px;
+}
+div.login div.loginname{
+    width: inherit;
+    height: 40px;
+    font-family: yekanbold;
+    text-align: right;
+    padding-right: 30px;
+    box-sizing: border-box;
+    padding-top: 1px;
+}
+div.login div.loginname span{
+    margin-right: 3px;
+    font-size: 19px;
+}
+div.login div.loginname span:nth-of-type(2){
+    display: inline-block;
+    width: 2px;
+    height: 19px;
+    line-height: 22px;
+    background-color: black;
+}
+div.login div.loginname2{
+    margin-right: 32px;
+    margin-top: 13px;
+    margin-bottom: 8px;
+}
+div.login div.loginname2 span{
+    font-family: yekan;
+    font-size: 12px;
+    color: rgb(71, 71, 71);
+}
+div.login div.loginname3{
+    margin-right: 32px;
+}
+div.login div.loginname3 span{
+    font-family: yekan;
+    font-size: 12px;
+    color: rgb(71, 71, 71);
+}
+div.form input[type=text]{
+    display: block;
+    width: 333px;
+    margin: 20px 35px 56px 35px;
+    height: 48px;
+    border-radius: 10px;
+    border: 1px solid #425486;
+}
+div.form input[type=text]:focus{
+    outline-color: #EF4056;
+}
+div.form input[type=submit]{
+    width: 333px;
+    height: 48px;
+    border: unset;
+    margin: 0 35px;
+    border-radius: 10px;
+    background-color: #EF4056;
+    color: white;
+    font-family: yekanbold;
+}
+div.login div.loginname4{
+    margin-right: 35px;
+    margin-top: 20px;
+    font-family: yekan;
+    font-size: 11px;
+    color: rgb(71, 71, 71);
+}
+div.login div.loginname4 a{
+    text-decoration: none;
+    color: #7093f5;
+}
